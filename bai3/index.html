@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List Tab</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Danh sách sản phẩm</h1>
+        <ul class="tab">
+            <li class="tab-item active" onclick="changeProductList('trend',this)">Phổ biển</li>
+            <li class="tab-item" onclick="changeProductList('new',this)">Mới nhất</li>
+            <li class=" tab-item" onclick="changeProductList('best-sell',this)">Bán chạy</li>
+        </ul>
+
+        <div id="trend" class="animation">
+            <ul class="product-list">
+                <li><img src="./images/1.png" alt=""></li>
+                <li><img src="./images/2.png" alt=""></li>
+                <li><img src="./images/3.png" alt=""></li>
+                <li><img src="./images/4.png" alt=""></li>
+                <li><img src="./images/5.png" alt=""></li>
+                <li><img src="./images/6.png" alt=""></li>
+            </ul>
+        </div>
+        <div id="new" class="animation">
+            <ul class="product-list">
+                <li><img src="./images/7.png" alt=""></li>
+                <li><img src="./images/8.png" alt=""></li>
+                <li><img src="./images/9.png" alt=""></li>
+                <li><img src="./images/10.png" alt=""></li>
+                <li><img src="./images/11.png" alt=""></li>
+                <li><img src="./images/12.png" alt=""></li>
+            </ul>
+        </div>
+        <div id="best-sell" class="animation">
+            <ul class="product-list">
+                <li><img src="./images/13.png" alt=""></li>
+                <li><img src="./images/14.png" alt=""></li>
+                <li><img src="./images/15.png" alt=""></li>
+                <li><img src="./images/16.png" alt=""></li>
+                <li><img src="./images/17.png" alt=""></li>
+                <li><img src="./images/18.png" alt=""></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
